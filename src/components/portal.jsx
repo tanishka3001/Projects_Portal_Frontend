@@ -29,7 +29,6 @@ const Grids = () => {
         <div>
         <div className="md:hidden relative mx-4 my-8 rounded-xl border-4 border-gray-200 shadow-xl overflow-hidden">
         <div className="relative h-80 w-full bg-gray-100">
-          {/* Image Slide */}
           <div className="flex h-full items-center justify-center p-4">
             <img 
               src={images[currentIndex]} 
@@ -92,7 +91,6 @@ const Grids = () => {
                         Column A
                     </div>
 
-                    {/* Column 2 */}
                     <div className="w-64 h-52 bg-white border border-black rounded-lg flex items-center justify-center">
                         Column B
                     </div>
@@ -100,7 +98,6 @@ const Grids = () => {
 
 
                 <div className="flex flex-col">
-                    {/* Column 3 */}
                     <div className="w-[435px] h-[330px] bg-white border border-black rounded-lg flex items-center justify-center">
                         Column C
                     </div>
