@@ -12,8 +12,8 @@ const Nav = () => {
                 </div>
             </div>
             <div className="text-center text-white mt-4">
-                <p className="text-4xl py-3 font-serif">welcome to the</p>
-                <p className="text-5xl pb-20 font-bold">ISTE Projects Portal</p>
+                <p className="text-2xl md:text-4xl py-3 font-serif">welcome to the</p>
+                <p className="text-3xl md:text-5xl pb-10 md:pb-20 font-bold">ISTE Projects Portal</p>
             </div>
         </nav>
     );
