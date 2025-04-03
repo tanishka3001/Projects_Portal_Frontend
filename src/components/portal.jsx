@@ -68,7 +68,7 @@ const Grids = () => {
                     </div>
                 </div>
             </div>
-    <div className="hidden md:flex md:my-[60vw] md:flex-col justify-center items-center h-screen gap-14">
+    <div className="hidden md:flex md:my-[60%] md:flex-col justify-center items-center h-screen gap-14">
       <div className="grid grid-cols-2 mt-24">
         {/* Box 1 */}
         <div className="flex flex-col gap-10 ">
@@ -140,7 +140,7 @@ const Grids = () => {
                             </div>
                             Column C
                         </a>
-                        <div className="mt-10 w-[46vw] h-36 bg-[#27A5EF] border border-black rounded-lg flex items-center justify-center">
+                        <div className="mt-10 w-[46vw] h-[22%] bg-[#27A5EF] border border-black rounded-lg flex items-center justify-center">
                         </div>
                     </div>
                 </div>
@@ -154,7 +154,7 @@ const Grids = () => {
           <div className="mt-10 w-[32vw] h-10 bg-[#27A5EF] border border-black rounded-lg flex items-center justify-center"></div>
         </div>
 
-        <a href="#" className="w-[46vw] h-[66vh] bg-white border border-black rounded-lg flex items-center justify-center overflow-hidden relative group transition-all duration-300 hover:shadow-xl hover:border-blue-500 hover:scale-105">
+        <a href="#" className="w-[46vw] h-[100%] bg-white border border-black rounded-lg flex items-center justify-center overflow-hidden relative group transition-all duration-300 hover:shadow-xl hover:border-blue-500 hover:scale-105">
           col2 box
         </a>
       </div>
