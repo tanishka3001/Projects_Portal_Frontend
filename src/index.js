@@ -1,20 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import Footer from './components/footer';
-import Portal from './components/portal';
-import Navbar from './components/navbar'
 import reportWebVitals from './reportWebVitals';
-
+import App from "./App";
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <div className='overflow-x-hidden'>    
-    <Navbar />
-    <Portal />
-    <Footer />
-    </div>
-
+    <App />
   </React.StrictMode>
 );
 
