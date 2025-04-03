@@ -3,7 +3,7 @@ import { FiLogIn } from "react-icons/fi";
 
 const Nav = () => {
     return (
-        <nav className="bg-black flex flex-col items-center w-full p-4">
+        <nav className="bg-black flex flex-col items-center w-full p-4 overflow-x-hidden">
             <div className="flex justify-between items-center w-full">
                 <img src="/iste_logo.png" alt="ISTE logo" className="w-12 h-12" />
                 <div className="flex items-center space-x-2">
