@@ -115,7 +115,7 @@ const Grids = () => {
                     </div>
                 </div>
             </div>
-    <div className=" hidden md:flex md:my-[55vw]  md:flex-col justify-center items-center h-screen gap-14">
+    <div className=" hidden md:flex md:my-[55vw] 2xl:my-[41vw] md:flex-col justify-center items-center h-screen gap-14">
       <div className="grid grid-cols-2 mt-24">
         {/* Box 1 */}
         <div className="flex flex-col gap-10 ">
