@@ -51,19 +51,16 @@ const Footer = () => {
       <div className="flex justify-between border-b-white border-b-2 text-sm items-end  md:text-xl lg:text-2xl">
         <div className="flex flex-col md:flex-row py-2">
           <div className="py-2 md:py-0 md:pr-2 hidden md:flex">
-            <a href="/projects">Projects</a>
+            <a href="/">Projects</a>
           </div>
           <div className="px-1 py-2 md:py-0 md:px-2 hidden md:flex">
-            <a href="/events">Events</a>
+            <a href="https://istevit.in/events" target="_blank" rel="noreferrer">Events</a>
           </div>
           <div className="px-1 py-2 md:py-0 md:px-2 hidden md:flex">
-            <a href="/webinars">Webinars</a>
-          </div>
-          <div className="px-1 py-2 md:py-0 md:px-2 hidden md:flex">
-            <a href="/team">Team</a>
+            <a href="https://istevit.in/team/faculty" target="_blank" rel="noreferrer">Team</a>
           </div>
           <div className="px-1 md:py-0 md:px-2">
-            <a href="/devs">Developers</a>
+            <a href="https://istevit.in/devs" target="_blank" rel="noreferrer">Developers</a>
           </div>
         </div>
         <div className="text-sm py-2 md:text-xl lg:text-2xl flex items-center">

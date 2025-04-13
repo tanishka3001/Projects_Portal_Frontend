@@ -115,7 +115,7 @@ const Grids = () => {
                     </div>
                 </div>
             </div>
-    <div className=" hidden md:flex md:my-[55vw] md:flex-col justify-center items-center h-screen gap-14">
+    <div className=" hidden md:flex md:my-[55vw]  md:flex-col justify-center items-center h-screen gap-14">
       <div className="grid grid-cols-2 mt-24">
         {/* Box 1 */}
         <div className="flex flex-col gap-10 ">
@@ -201,7 +201,6 @@ const Grids = () => {
         </a>
       </div>
 
-      {/* Footer */}
       <div className="flex flex-row text-lg font-serif mt-8 mb-12">
         ⚫ More Projects Coming Soon ⚫
       </div>
