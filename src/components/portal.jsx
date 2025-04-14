@@ -4,60 +4,48 @@ const Grids = () => {
     const projects = [
         {
             id: 1,
-            title: "Project 1",
-            image: "https://i.ibb.co/6c9tsC8H/Whats-App-Image-2025-03-31-at-11-54-19-PM.jpg",
+            title: "TexAR",
+            image: "https://i.ibb.co/fGtQfVpV/Middle-1.png",
             github: "https://github.com/ISTE-VIT/TexAR",
-            tag: "/electrical.png"
+            tag: "/AR.png"
             
         },
         {
           id: 2,
-          title: "Project 2",
-          image: "test.jpg",
-          github: "https://github.com/ISTE-VIT/TexAR"
+          title: "PaymentX",
+          image: "https://i.ibb.co/QFgn58Qg/Middle.png",
+          github: "https://github.com/ISTE-VIT/PaymentX",
+          tag: "/App.png"
       },
       {
         id: 3,
-        title: "Project 3",
-        image: "test.jpg",
-        github: "https://github.com/ISTE-VIT/TexAR"
+        title: "Smart_Home_Bot",
+        image: "test.png",
+        github: "https://github.com/ISTE-VIT/Smart-Home-Bot",
+        tag : "/electrical.png"
     },
     {
       id: 4,
-      title: "Project 4",
-      image: "test.jpg",
-      github: "https://github.com/ISTE-VIT/TexAR"
+      title: "Armed_Rover",
+      image: "https://i.ibb.co/s94bN5jH/Middle-2.png",
+      github: "https://github.com/ISTE-VIT/4DOF-ARMED-ROVER",
+      tag : "/electrical.png"
   },
   {
     id: 5,
-    title: "Project 5",
-    image: "test.jpg",
-    github: "https://github.com/ISTE-VIT/TexAR"
+    title: "Inferno",
+    image: "https://i.ibb.co/27G2Hg3k/Middle-3.png",
+    github: "https://github.com/ISTE-VIT/Inferno",
+    tag : "/VR.png"
 },
 {
   id: 6,
-  title: "Project 6",
-  image: "test.jpg",
-  github: "https://github.com/ISTE-VIT/TexAR"
+  title: "ReviveAI",
+  image: "https://i.ibb.co/0Vt1hHpk/Middle-4.png",
+  github: "",
+  tag : "/AI.png"
 },
-{
-  id: 7,
-  title: "Project 7",
-  image: "test.jpg",
-  github: "https://github.com/ISTE-VIT/TexAR"
-},
-{
-  id: 8,
-  title: "Project 8",
-  image: "test.jpg",
-  github: "https://github.com/ISTE-VIT/TexAR"
-},
-{
-  id: 9,
-  title: "Project 9",
-  image: "test.jpg",
-  github: "https://github.com/ISTE-VIT/TexAR"
-},
+
     ];
 
     const [currentIndex, setCurrentIndex] = useState(0);
@@ -126,8 +114,8 @@ const Grids = () => {
             className="w-[36vw] aspect-square bg-white border-4 border-black rounded-lg flex items-center justify-center overflow-hidden relative group transition-all duration-300 hover:shadow-xl hover:border-blue-500 hover:scale-105"
           >
             <img
-              src="/electrical.png"
-              alt="Electrical tag"
+              src={projects[0].tag}
+              alt="AR tag"
               className="absolute bottom-2 right-2 w-10 h-10 "
             />
             <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 flex items-center justify-center transition-all duration-300">
