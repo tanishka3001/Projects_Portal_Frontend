@@ -45,8 +45,6 @@ const Grids = () => {
       github: "https://github.com/ISTE-VIT/ReviveAI",
       tag: "/AI.png"
     },
-    
-   
 
   ];
 
@@ -143,7 +141,7 @@ const Grids = () => {
               <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 flex items-center justify-center transition-all duration-300">
               </div>
               <img
-                src={projects[1].image}
+                src="/portalpaymentx.png"
                 alt={projects[1].title}
                 className="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300 "
               />
@@ -213,7 +211,7 @@ const Grids = () => {
               <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 flex items-center justify-center transition-all duration-300">
               </div>
               <img
-                src={projects[5].image}
+                src="/reviveai.png"
                 alt={projects[5].title}
                 className="w-full h-full object-cover group-hover:opacity-90 transition-opacity duration-300"
               />
