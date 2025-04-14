@@ -20,7 +20,7 @@ const Grids = () => {
       {
         id: 3,
         title: "Smart_Home_Bot",
-        image: "test.png",
+        image: "https://i.ibb.co/WW0F91xg/smartbot.png",
         github: "https://github.com/ISTE-VIT/Smart-Home-Bot",
         tag : "/electrical.png"
     },
@@ -42,7 +42,7 @@ const Grids = () => {
   id: 6,
   title: "ReviveAI",
   image: "https://i.ibb.co/0Vt1hHpk/Middle-4.png",
-  github: "",
+  github: "https://github.com/ISTE-VIT/ReviveAI",
   tag : "/AI.png"
 },
 
