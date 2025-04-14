@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
+import '../index.css'
 const Grids = () => {
   const projects = [
     {
@@ -65,8 +66,8 @@ const Grids = () => {
     <div>
       <div className="md:hidden relative mx-4 my-8 rounded-xl border-4 border-gray-200 shadow-xl overflow-x-hidden">
         <div className="relative h-96 w-full bg-gray-100">
-          <div className="flex h-full items-center justify-center p-4">
-            <a href={projects[currentIndex].github} target="_blank" rel="noreferrer">
+          <div className="flex h-full items-center justify-center p-4 overflow-hidden">
+            <a href={projects[currentIndex].github} target="_blank" rel="noreferrer" >
               <img
                 src={projects[currentIndex].image}
                 alt={`Project ${projects[currentIndex].id}`}
@@ -221,7 +222,7 @@ const Grids = () => {
           </div>
         </div>
 
-        <div className="flex flex-row text-lg font-serif mt-8 mb-12">
+        <div className="flex flex-row text-lg font-serif mt-8 mb-12  " style={{ fontFamily: 'Hamlin',fontWeight: 900 }}>
           ⚫ More Projects Coming Soon ⚫
         </div>
       </div>

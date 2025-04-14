@@ -4,10 +4,11 @@ import { FaXTwitter } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
+import '../index.css'
 
 const Footer = () => {
   return (
-    <div className="flex flex-col bg-black text-white px-2 pl-2 md:px-6 md:pl-6 w-full overflow-hidden">
+    <div className="flex flex-col bg-black text-white px-2 pl-2 md:px-6 md:pl-6 w-full overflow-hidden" style={{fontFamily: 'Hamlin'}}>
       <div className="flex items-end justify-between w-full">
         <div className="flex flex-col text-md md:text-xl lg:text-2xl pt-10">
           <div className="flex flex-col text-[#949494]">
