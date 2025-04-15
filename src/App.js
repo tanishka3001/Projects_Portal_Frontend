@@ -11,7 +11,7 @@ export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<div><Navbar /><Portal /><Footer /></div>} />
+        <Route path="/" element={<div className='bg-white'><Navbar /><Portal /><Footer /></div>} />
       </Routes>
     </Router>
   );
