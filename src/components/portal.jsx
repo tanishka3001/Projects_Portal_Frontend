@@ -130,7 +130,6 @@ const Grids = () => {
             </div>
           </div>
 
-          {/* Box 3 */}
           <div className="flex flex-col gap-10">
             <a href={projects[1].github} target="_blank" rel="noopener noreferrer" className="w-[43vw] h-[20vw] bg-white border-4 border-black rounded-lg flex items-center justify-center overflow-hidden relative group transition-all duration-300 hover:shadow-xl hover:border-blue-500 hover:scale-105">
               <img

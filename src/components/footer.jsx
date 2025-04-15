@@ -17,8 +17,8 @@ const Footer = () => {
             <p className="text-nowrap">India - 632014</p>
           </div>
           <div className="pt-10">
-            <a href="https://istevit.in" className="underline">iste@vit.ac.in</a>
-            <p>+91 83289 26213</p>
+            <a href="https://istevit.in" className="underline px-2 md:px-0">iste@vit.ac.in</a>
+            <p className="px-1 pt-2 md:px-0 md:pt-0">+91 83289 26213</p>
           </div>
         </div>
         <div className="flex pb-20">
@@ -60,12 +60,12 @@ const Footer = () => {
           <div className="px-1 py-2 md:py-0 md:px-2 hidden md:flex">
             <a href="https://istevit.in/team/faculty" target="_blank" rel="noreferrer">Team</a>
           </div>
-          <div className="px-1 md:py-0 md:px-2">
+          <div className="px-2 md:py-0 ">
             <a href="https://istevit.in/devs" target="_blank" rel="noreferrer">Developers</a>
           </div>
         </div>
         <div className="text-sm py-2 md:text-xl lg:text-2xl flex items-center">
-          Made with <span className="px-3">❤️</span> by ISTE
+          Made with <span className="px-2"><img src="/heartiste.png" alt="heart_iste" className="w-[80%]"></img></span> by ISTE
         </div>
       </div>
       <div className="flex items-center justify-center pt-20">
