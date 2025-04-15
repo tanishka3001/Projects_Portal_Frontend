@@ -65,7 +65,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="text-sm py-2 md:text-xl lg:text-2xl flex items-center">
-          Made with <span className="px-2"><img src="/heartiste.png" alt="heart_iste" className="w-[80%]"></img></span> by ISTE
+          Made with <span className="px-2"><img src="/heartiste.png" alt="heart_iste" className="align-middle w-5 md:w-7"></img></span>by ISTE
         </div>
       </div>
       <div className="flex items-center justify-center pt-20">
