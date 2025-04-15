@@ -104,9 +104,8 @@ const Grids = () => {
           </div>
         </div>
       </div>
-      <div className=" hidden md:flex md:my-[33vw] 2xl:my-[21vw] md:flex-col justify-center items-center h-screen gap-14">
+      <div className=" hidden md:flex md:flex-col justify-center items-center gap-14">
         <div className="grid grid-cols-2 mt-24">
-          {/* Box 1 */}
           <div className="flex flex-col gap-10 ">
             <a
               href={projects[0].github}
@@ -222,7 +221,7 @@ const Grids = () => {
           </div>
         </div>
 
-        <div className="flex flex-row text-lg font-serif mt-8 mb-12  " style={{ fontFamily: 'Hamlin',fontWeight: 900 }}>
+        <div className="flex flex-row text-lg font-serif mt-8 mb-12  " style={{ fontFamily: 'Hamlin' ,fontWeight: 900}}>
           ⚫ More Projects Coming Soon ⚫
         </div>
       </div>
