@@ -63,8 +63,9 @@ const Grids = () => {
     );
   };
   return (
-    <div>
-      <div className="md:hidden relative mx-4 my-8 rounded-xl border-4 border-gray-200 shadow-xl bg-white overflow-x-hidden">
+    <div className="bg-white">
+      <div className="bg-white">
+      <div className="md:hidden relative mx-4 my-8 rounded-xl border-4 border-gray-200 shadow-xl overflow-x-hidden">
         <div className="relative h-96 w-full bg-gray-100">
           <div className="flex h-full items-center justify-center p-4 overflow-hidden">
             <a href={projects[currentIndex].github} target="_blank" rel="noreferrer" >
@@ -103,7 +104,7 @@ const Grids = () => {
             ))}
           </div>
         </div>
-      </div>
+      </div></div>
       <div className=" hidden md:flex md:flex-col justify-center items-center gap-14">
         <div className="grid grid-cols-2 mt-24">
           <div className="flex flex-col gap-10 ">
