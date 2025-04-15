@@ -63,7 +63,7 @@ const Grids = () => {
     );
   };
   return (
-    <div>
+    <div className="bg-white">
       <div className="md:hidden relative mx-4 my-8 rounded-xl border-4 border-gray-200 shadow-xl overflow-x-hidden">
         <div className="relative h-96 w-full bg-gray-100">
           <div className="flex h-full items-center justify-center p-4 overflow-hidden">
