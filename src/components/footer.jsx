@@ -64,7 +64,7 @@ const Footer = () => {
             <a href="https://istevit.in/devs" target="_blank" rel="noreferrer">Developers</a>
           </div>
         </div>
-        <div className="text-sm py-2 md:text-xl lg:text-2xl flex items-center">
+        <div className="text-sm mr-3 py-2 md:text-xl lg:text-2xl flex items-center">
           Made with <span className="px-2"><img src="/heartiste.png" alt="heart_iste" className="align-middle w-5 md:w-7"></img></span>by ISTE
         </div>
       </div>
